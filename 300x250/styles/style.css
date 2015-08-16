@@ -1,0 +1,83 @@
+body{
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.click {
+	cursor:pointer;
+}
+
+.absolute {
+	position: absolute;
+}
+
+#banner {
+	background: #f3f3f3;
+	position: relative;
+	overflow: hidden;
+}
+
+#main-click {
+	position: absolute;
+}
+
+.button
+{
+	background-color: #77ccff;
+	border-bottom: 5px solid #0484d6;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 5px 20px;
+	margin: 0px 10px 10px 0px;
+}
+
+.button:active
+{
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid #0484d6;
+}
+
+#cta{
+	bottom: 5px;
+	left: 5px;
+}
+
+#user-action{
+	bottom: 45px;
+	left: 5px;
+}
+
+#logo {
+	bottom: 13px;
+	right: 5px;
+}
+
+#beach {
+	right: 0;
+}
+
+#mountain {
+	left: 0;
+}
+
+.copy {
+	font-size: 25px;
+	padding: 8px 5px;
+}
+
+#copy-1 {
+	padding-top: 5px;
+}
+
+#copy-2 {
+	color:#666;
+}
+
+#copy-3{
+	text-shadow: 2px 2px #666;
+}
