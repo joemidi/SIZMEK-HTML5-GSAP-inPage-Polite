@@ -27,7 +27,7 @@ Banner.animate = function(){
     d = d + 5;
 
     TweenLite.to(['#orangutan','#copy-3'], 1, {alpha:1, delay: d});
-    TweenLite.to(['#cta', '#user-action'], 1, {alpha:1, delay: d+1});
+    TweenLite.to(['#cta', '#user-action'], 1, {autoAlpha:1, delay: d+1});
 
 };
 

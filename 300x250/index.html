@@ -108,7 +108,7 @@
         <script type="text/javascript">
             function initEB() {
                 if (!EB.isInitialized()) {
-                    EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);
+                    EB.addEventListener(EBG.EventName.EB_INITIALIZED, politeInit);
                 } else {
                     politeInit();
                 }
